@@ -5,6 +5,7 @@ import chess.Color;
 import boardgame.Board;
 
 public class King extends ChessPiece{
+	// rei 
 
 	public King(Board board, Color color) {
 		super(board, color);

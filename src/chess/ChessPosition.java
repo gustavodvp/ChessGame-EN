@@ -4,6 +4,8 @@ import boardgame.Position;
 
 public class ChessPosition {
 	
+	// posições do tabuleiro
+	
 	private char column;
 	private int row;
 	public ChessPosition(char column, int row) {
@@ -30,6 +32,8 @@ public class ChessPosition {
 		return new ChessPosition ((char) ('a' - position.getColumn()), 8 - position.getRow());
 		
 	}
+	
+	// concatenando linha com a coluna nas coordenadas do xadrez
 	
 	@Override
 	public String toString () {
